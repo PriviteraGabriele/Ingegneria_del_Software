@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Esercizio_1 {
     public static void main(String [] args){
-        List<String>  l1 = List.of("author", "auto","aucorrect","begin","big","bigger","biggish");
+        List<String> l1 = List.of("author", "auto","aucorrect","begin","big","bigger","biggish");
 
         final String pref = "aut";
         List<String> r = l1.stream()
