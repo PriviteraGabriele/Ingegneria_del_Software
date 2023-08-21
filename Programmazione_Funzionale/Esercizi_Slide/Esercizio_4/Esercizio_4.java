@@ -1,4 +1,4 @@
-package Ingegneria_del_Software.Programmazione_Funzionale.Esercizi_Slide.Esercizi_AS.Esercizio_4;
+
 
 import java.util.Arrays;
 import java.util.List;

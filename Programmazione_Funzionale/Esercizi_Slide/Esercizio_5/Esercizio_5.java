@@ -1,5 +1,4 @@
-package Ingegneria_del_Software.Programmazione_Funzionale.Esercizi_Slide.Esercizi_AS.Esercizio_5;
-
+package Ingegneria_del_Software.Programmazione_Funzionale.Esercizi_Slide.Esercizio_5;
 
 import java.util.List;
 /*
