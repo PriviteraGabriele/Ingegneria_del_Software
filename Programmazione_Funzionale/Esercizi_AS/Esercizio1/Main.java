@@ -18,7 +18,7 @@ public class Main
 
     public static void main(String[] args) 
     {
-        es14();
+        es12(25, 40);
     }
 
     static void es1()
@@ -244,7 +244,7 @@ public class Main
                 new Persona("Alfio",63, "Programmer"));
         
         Map<String, String> m = list.stream()
-                                        .collect(Collectors.toMap(Persona::name, Persona::rule));
+                                    .collect(Collectors.toMap(Persona::name, Persona::rule));
         System.out.println(m);
     }
 }
