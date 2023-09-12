@@ -6,7 +6,7 @@
 // 3) un metodo che restituisce il libro di genere Giallo, che ha il costo maggiore. 
 // 4) un metodo che restitusice la lista di autori delle istanze di lib senza ripetizioni
 
-package W3_Learning.Java.Stream.Record.Libro;
+package Ingegneria_del_Software.Stream.Record.Libro;
 
 import java.util.Comparator;
 import java.util.List;

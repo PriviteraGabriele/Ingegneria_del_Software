@@ -1,4 +1,4 @@
-package W3_Learning.Java.Stream.Record.Triangolo;
+package Ingegneria_del_Software.Stream.Record.Triangolo;
 
 import java.util.List;
 

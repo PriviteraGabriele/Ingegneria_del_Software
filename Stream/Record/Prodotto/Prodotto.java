@@ -1,3 +1,3 @@
-package W3_Learning.Java.Stream.Record.Prodotto;
+package Ingegneria_del_Software.Stream.Record.Prodotto;
 
 public record Prodotto(String nome, double prezzo) {}

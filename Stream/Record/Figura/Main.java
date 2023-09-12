@@ -1,4 +1,4 @@
-package W3_Learning.Java.Stream.Record.Figura;
+package Ingegneria_del_Software.Stream.Record.Figura;
 
 import java.util.List;
 import java.util.stream.Collectors;
