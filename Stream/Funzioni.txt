@@ -1,0 +1,41 @@
+La programmazione funzionale in Java è basata principalmente sull'utilizzo di stream 
+e operazioni su di essi. Gli stream sono sequenze di elementi che possono essere 
+manipolati in modi diversi utilizzando una varietà di operazioni. Ecco un elenco 
+delle principali funzioni della programmazione funzionale in Java e una breve 
+descrizione di ciascuna:
+
+1.  map: Trasforma ogni elemento dell'input applicando una funzione fornita. 
+         Restituisce uno stream contenente i risultati delle applicazioni delle funzioni.
+
+2.  filter: Seleziona gli elementi dell'input che soddisfano un determinato predicato 
+            (una condizione booleana). Restituisce uno stream contenente solo gli elementi 
+            che soddisfano il predicato.
+
+3.  reduce: Combina gli elementi dell'input in un singolo risultato applicando un'operazione 
+            associativa. Ad esempio, puoi utilizzare reduce per sommare tutti gli elementi 
+            di uno stream.
+
+4.  collect: Accumula gli elementi dello stream in una collezione o struttura dati specificata, 
+             ad esempio una lista o una mappa.
+
+5.  flatMap: Trasforma ogni elemento dell'input in uno stream di nuovi elementi e poi appiattisce 
+             questi stream in un unico stream risultante.
+
+6.  distinct: Restituisce uno stream contenente solo gli elementi unici dell'input, rimuovendo duplicati.
+
+7.  sorted: Ordina gli elementi dello stream in base a un criterio specificato.
+
+8.  allMatch, anyMatch, noneMatch: Verificano rispettivamente se tutti, almeno uno o nessun 
+                                   elemento dello stream soddisfa un dato predicato.
+
+9.  forEach: Esegue un'azione specifica per ogni elemento dello stream.
+
+10. count: Restituisce il numero di elementi nello stream.
+
+11. max, min: Restituiscono rispettivamente il massimo e il minimo elemento dello stream 
+              in base a un comparatore specificato.
+
+12. findFirst, findAny: Restituiscono rispettivamente il primo elemento dello stream che 
+                        soddisfa un certo predicato o qualsiasi elemento dello stream.
+
+13. generate, iterate: Creano uno stream generato da un'operazione o funzione specificata.
