@@ -16,7 +16,7 @@ public class Main
 
     public static void main(String[] args) 
     {
-        es12(25, 40);
+        es4();
     }
 
     static void es1()

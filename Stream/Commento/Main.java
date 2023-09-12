@@ -18,9 +18,6 @@ public class Main {
 
         System.out.print("\nRestituire gli utenti che hanno pubblicato almeno un commento prima di una certa data: ");
         metodo2(utenti, date);
-
-        // System.out.print("\nRestituire l'utente che ha pubblicato il commento piu' recente: ");
-        // metodo3(utenti);
         System.out.print("\n");
     }
 
@@ -38,14 +35,4 @@ public class Main {
               .filter(utente -> utente.getCommenti().stream().anyMatch(commento -> commento.getDate().isBefore(date)))
               .forEach(p -> System.out.print(p.getName() + " "));    
     }
-
-    // // Restituire l'utente che ha pubblicato il commento più recente
-    // static void metodo3(List<Utente> utenti){
-    //     utenti.stream()
-    //           .filter(utente -> utente.getCommenti().max(Comparator.comparing(Utente::getCommenti)
-    //                 .stream()
-    //                 .map(Commento::getData)
-    //                 .max(LocalDate::compareTo)
-    //                 .orElse(LocalDate.MIN)));
-
 }
