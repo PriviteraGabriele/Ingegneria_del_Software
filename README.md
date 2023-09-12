@@ -1,4 +1,4 @@
 # Ingegneria_del_Software
-A backup including different exercise in Java seen during the lessons 
+A backup that includes several exercises using Java Streams
 
 /* Work in Process */
