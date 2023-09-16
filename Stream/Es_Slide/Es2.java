@@ -1,6 +1,6 @@
 package Ingegneria_del_Software.Stream.Es_Slide;
 
-// Data una lista di stringhe, Produrre una stringa contenente le iniziali di ciascuna stringa della lista
+// Data una lista di stringhe, produrre una stringa contenente le iniziali di ciascuna stringa della lista
 
 import java.util.*;
 
