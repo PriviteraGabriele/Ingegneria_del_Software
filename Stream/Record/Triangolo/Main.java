@@ -40,7 +40,7 @@ public class Main {
         List<Integer> lMax = t.stream()
                               .map(x -> List.of(x.l1(), x.l2(), x.l3()))
                               .map(x -> x.stream()
-                                         .reduce(Integer::min)
+                                         .reduce(Integer::max)
                                          .get())
                               .toList();
 
