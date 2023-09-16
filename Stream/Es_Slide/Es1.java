@@ -1,5 +1,7 @@
 package Ingegneria_del_Software.Stream.Es_Slide;
 
+// Data una lista di stringhe, produrre una lista che contiene solo le stringhe che cominciano con un certo prefisso noto
+
 import java.util.List;
 
 public class Es1 {
