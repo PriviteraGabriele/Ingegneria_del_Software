@@ -56,7 +56,9 @@ public class Main {
         Map<String, Double> sommaPerGenere = lib.stream()
                                                 .collect(Collectors.groupingBy(Libro::genere, Collectors.summingDouble(Libro::costo)));
 
-        return sommaPerGenere.values().stream().collect(Collectors.toList());
+        return sommaPerGenere.values()
+                             .stream()
+                             .collect(Collectors.toList());
     }
 
     // Un metodo che restituisce il libro di genere Giallo, che ha il costo maggiore
