@@ -18,7 +18,7 @@ public class Es3 {
         List<Integer> ris = terne.stream()
                              .filter(t -> t[0] < t[1] + t[2])
                              .filter(t -> t[1] < t[2] + t[0])
-                             .filter(t -> t[2] < t[0] + t[0])
+                             .filter(t -> t[2] < t[0] + t[1])
                              .map(t -> t[0] + t[1] + t[2])
                              .toList();
 
